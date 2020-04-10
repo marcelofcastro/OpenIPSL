@@ -1,3 +1,4 @@
+within OpenIPSL.Electrical.Banks.PSSE;
 model CSVGN1 "STATC SHUNT COMPENSATOR MODEL"
   outer OpenIPSL.Electrical.SystemBase SysData
     "Must add this line in all models";
