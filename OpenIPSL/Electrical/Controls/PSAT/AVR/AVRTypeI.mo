@@ -10,8 +10,8 @@ model AVRTypeI "PSAT AVR Type 1"
         origin={110,0}), iconTransformation(extent={{100,-20},{140,20}})));
   Modelica.Blocks.Interfaces.RealInput vref
     "Reference generator terminal voltage [pu]" annotation (Placement(
-        transformation(extent={{-140,40},{-100,80}}), iconTransformation(extent
-          ={{-140,40},{-100,80}})));
+        transformation(extent={{-140,40},{-100,80}}), iconTransformation(extent=
+           {{-140,40},{-100,80}})));
   parameter SI.PerUnit vrmax=7.57 "Maximum regulator voltage";
   parameter SI.PerUnit vrmin=0 "Minimum regulator voltage";
   parameter Real K0=7.04 "Regulator gain, [pu/pu]";

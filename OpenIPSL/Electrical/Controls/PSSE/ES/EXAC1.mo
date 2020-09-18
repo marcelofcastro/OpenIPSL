@@ -106,8 +106,8 @@ equation
     annotation (Line(points={{81,0},{98.75,0}}, color={0,0,127}));
   connect(rectifierCommutationVoltageDrop.EFD, EFD)
     annotation (Line(points={{161,0},{210,0}}, color={0,0,127}));
-  connect(rotatingExciterWithDemagnetizationLimited.XADIFD, XADIFD) annotation
-    (Line(points={{110,-11.25},{112,-11.25},{112,-36},{150,-36},{150,-50}},
+  connect(rotatingExciterWithDemagnetizationLimited.XADIFD, XADIFD) annotation (
+     Line(points={{110,-11.25},{112,-11.25},{112,-36},{150,-36},{150,-50}},
         color={0,0,127}));
   connect(imDerivativeLag.u, rotatingExciterWithDemagnetizationLimited.V_FE)
     annotation (Line(points={{22,-50},{56,-50},{90,-50},{90,-6.25},{98.75,-6.25}},
@@ -130,7 +130,6 @@ equation
           -50},{-70,-50},{-70,-8},{-62,-8}}, color={0,0,127}));
   annotation (
     Diagram(coordinateSystem(extent={{-200,-200},{200,160}})),
-
     Icon(coordinateSystem(extent={{-200,-200},{200,160}}),
         graphics={Text(
           extent={{-184,-62},{-114,-82}},
@@ -147,7 +146,7 @@ equation
 </tr>
 <tr>
 <td><p>Last update</p></td>
-<td>2015-11-26</td>
+<td>September 2020</td>
 </tr>
 <tr>
 <td><p>Author</p></td>
@@ -155,8 +154,9 @@ equation
 </tr>
 <tr>
 <td><p>Contact</p></td>
-<td><p><a href=\"mailto:luigiv@kth.se\">luigiv@kth.se</a></p></td>
+<td><p><a href=\"mailto:vanfrl@rpi.edu\">vanfrl@rpi.edu</a></p></td>
 </tr>
 </table>
+<p> This model has been verified against PSS/E.</p>
 </html>"));
 end EXAC1;

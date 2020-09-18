@@ -58,11 +58,11 @@ model IEEEG1 "1981 IEEE Type 1 Turbine-Governor Model"
         rotation=-90,
         origin={130,-16})));
   Modelica.Blocks.Interfaces.RealOutput PMECH_HP
-    "Turbine mechanical power [pu]" annotation (Placement(transformation(extent
-          ={{170,52},{180,64}}), iconTransformation(extent={{160,26},{188,54}})));
+    "Turbine mechanical power [pu]" annotation (Placement(transformation(extent=
+           {{170,52},{180,64}}), iconTransformation(extent={{160,26},{188,54}})));
   Modelica.Blocks.Interfaces.RealOutput PMECH_LP
-    "Turbine mechanical power [pu]" annotation (Placement(transformation(extent
-          ={{170,-48},{180,-36}}), iconTransformation(extent={{160,-56},{188,-24}})));
+    "Turbine mechanical power [pu]" annotation (Placement(transformation(extent=
+           {{170,-48},{180,-36}}), iconTransformation(extent={{160,-56},{188,-24}})));
   parameter SI.PerUnit P0=1 "Power reference of the governor";
   parameter Real K=20 "Regulation gain [1/pu]";
   parameter SI.Time T_1=1e-8 "Control time constant";
@@ -175,7 +175,7 @@ equation
 </tr>
 <tr>
 <td><p>Last update</p></td>
-<td>2015-10-02</td>
+<td>September 2020</td>
 </tr>
 <tr>
 <td><p>Author</p></td>
@@ -183,8 +183,9 @@ equation
 </tr>
 <tr>
 <td><p>Contact</p></td>
-<td><p><a href=\"mailto:luigi.vanfretti@gmail.com\">luigi.vanfretti@gmail.com</a></p></td>
+<td><p><a href=\"mailto:vanfrl@rpi.edu\">vanfrl@rpi.edu</a></p></td>
 </tr>
 </table>
+<p> This model has been verified against PSS/E.</p>
 </html>"));
 end IEEEG1;
