@@ -28,7 +28,7 @@ model EXAC3 "SMIB model example of GENROE with Excitation System EXAC3"
     P_0=40000000,
     Q_0=5416582,
     v_0=1) annotation (Placement(transformation(extent={{-88,-20},{-48,20}})));
-  Models.EXAC3 eXAC3
+  OpenIPSL.Electrical.Controls.PSSE.ES.EXAC3 eXAC3
     annotation (Placement(transformation(extent={{-60,-60},{-80,-80}})));
 equation
   connect(gENROE.PMECH, gENROE.PMECH0) annotation (Line(points={{-92,10},{-100,10},{-100,30},{-40,30},{-40,10},{-46,10}},

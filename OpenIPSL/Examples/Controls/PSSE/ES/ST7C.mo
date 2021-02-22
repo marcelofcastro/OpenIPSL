@@ -1,7 +1,7 @@
 within OpenIPSL.Examples.Controls.PSSE.ES;
 model ST7C "SMIB model example of GENROE with Excitation System ST7C"
   extends OpenIPSL.Examples.BaseClasses.SMIB;
-  NewModels.Models.ST7C sT7C
+  OpenIPSL.Electrical.Controls.PSSE.ES.ST7C sT7C
     annotation (Placement(transformation(extent={{-60,-60},{-80,-40}})));
   Modelica.Blocks.Sources.Constant PSS_off(k=0)
     annotation (Placement(transformation(extent={{-42,-36},{-50,-28}})));

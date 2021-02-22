@@ -25,7 +25,7 @@ model IEEET3 "SMIB model example of GENROU with Excitation System IEEET3"
     v_0=1) annotation (Placement(transformation(extent={{-90,-12},{-68,12}})));
   Modelica.Blocks.Sources.Constant no_add_controls(k=0) annotation (
       Placement(transformation(extent={{-5,-5},{5,5}}, origin={-75,-35})));
-  NewModels.Models.IEEET3 iEEET3 annotation (Placement(
+  OpenIPSL.Electrical.Controls.PSSE.ES.IEEET3 iEEET3 annotation (Placement(
         transformation(
         extent={{-10,-10},{10,10}},
         origin={-46,-8})));
